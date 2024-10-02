@@ -10,8 +10,6 @@ int main(){
 	scanf("%d" ,&time);
 	printf("enter the rate: ");
 	scanf("%f" ,&rate);
-	printf("enter the simpleinterest: ");
-	scanf("%f" ,&simpleinterest);
 	//calculate the simpleinterest
 	simpleinterest=(principle*rate*time)/100;
 	printf("simpleinterest is %f \n");
