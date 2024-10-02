@@ -10,10 +10,8 @@ int main(){
 	scanf("%d", &time);
 	printf("enter the rate: ");
 	scanf("%f", &rate);
-	printf("enter the compoundinterest: ");
-	scanf("%f", &compoundinterest);
 	//calculate the compoundinterest
 	compoundinterest=((1+rate/100)*time);
-	printf("compoundinterest is %f/n");
+	printf("compoundinterest is %f/n",compoundinterest);
 	return 0;
 }
