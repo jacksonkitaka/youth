@@ -22,13 +22,13 @@ int main(){
 	
 	printf("daysoverdue: %f \n",daysoverdue);
 	if(daysoverdue<=7){
-		finerate=20;
+		finerate=140;
 	}else if
 		(daysoverdue<=14){
-			finerate=50; 
+			finerate=700; 
 		}else if
 		(daysoverdue>=15){
-			finerate =100;
+			finerate =1500;
 			}
 			
 		fineamount=(daysoverdue*finerate);
